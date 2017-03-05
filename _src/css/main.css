@@ -8,3 +8,17 @@
 @import '_article.css';
 @import '_itemshow.css';
 @import '_archive.css';
+
+#back-to-top{
+position:fixed;
+bottom:5%;
+left:90%;
+}
+#back-to-top a{
+display:block;
+height:50px;
+width:50px;
+background:url(top.png) no-repeat center center;
+margin-bottom:5px;
+}
+</style>
