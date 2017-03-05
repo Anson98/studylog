@@ -3,7 +3,7 @@ theme author's domain: "http://songroger.win"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://anson98.github.io/studylog" # the base hostname & protocol for your site
 permalink: /:title/
-avatar: http://i.imgur.com/cM2Lstx.png
+avatar: http://i.imgur.com/idprimf.jpg
 about: http://i.imgur.com/Md41v9c.jpg
 favicon: http://i.imgur.com/jZ4adr0.png
 basecss: 
