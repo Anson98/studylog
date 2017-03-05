@@ -50,7 +50,7 @@ document.body.scrollTop = value;
 } 
 min_height = 600;
 window.onscroll = function() { 
-    var s = (window).scrollTop();
+    var s = document.documentElement.scrollTop;
     if( s > min_height){
             ("#goTopBtn").fadeIn(100);
         }else{
