@@ -1,4 +1,3 @@
----
 layout: post
 title:  "The Galileo Theme"
 date:   2015-11-15 13:05:14 +0100
