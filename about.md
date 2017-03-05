@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 {{ site.description }}
-![Songroger]({{ site.about }})
+![Anson_98]({{ site.about }})
