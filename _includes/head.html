@@ -49,13 +49,16 @@ document.body.scrollTop = value;
 } 
 } 
 window.onscroll = function() { 
-if (getScrollTop() > 0) obj.style.display = ""; 
+if (getScrollTop() > 0) {obj.style.display = ""; 
+                        }else{
+                            obj.style.display = "none";
+                        }
 } 
 obj.onclick = function() { 
 var goTop = setInterval(scrollMove, 10); 
+    $(obj).fadeOut;
 function scrollMove() { 
 setScrollTop(getScrollTop() / 1.1); 
-    obj.style.fadeOut = 200;
 if (getScrollTop() < 1) clearInterval(goTop); 
 } 
 } 
