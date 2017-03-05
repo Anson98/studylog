@@ -4,15 +4,17 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://anson98.github.io/studylog" # the base hostname & protocol for your site
 permalink: /:title/
 avatar: http://i.imgur.com/cM2Lstx.png
-about: http://7xof48.com1.z0.glb.clouddn.com/about.jpg
+about: http://i.imgur.com/Md41v9c.jpg
 favicon: http://i.imgur.com/jZ4adr0.png
 basecss: 
 # Theme specific configuration
 title: Anson_98's Blog
 description: >
-  Hi there, My name is Luozhan.Song, usually I use "songroger" as my ID everywhere.
-  I was born and raised in Hunan China. 
-  I'm really fond of beautiful design, drawing etc.
+  大家好，这里是Anson.欢迎来到我的个人博客。
+  我来自上海，现居英国伦敦，就读于帝国理工大学，是一名计算机爱好者，喜欢设计，研究和创新新事物。
+  一般来讲我在网络上使用的用户名都是“Anson_98”，这使得你们能够在任何地方轻松地认出我。
+  平时我热爱游戏，不过我也非常喜欢学习自己感兴趣的东西，这也是我开设本站的原因。
+  我会在这里记录下自己的学习日志，同时也会不定期把本站的更新内容Post上来，希望大家能够支持。
 
 # Contact and social media links
 twitter_username: Anson_98
