@@ -7,28 +7,6 @@
 
 {{ content }}
     
-<script language="javascript" type="text/javascript" src="jquery.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-$("#back-to-top").hide();
-$(function () {
-$(window).scroll(function(){
-if ($(window).scrollTop()>100){
-$("#back-to-top").fadeIn(500);
-}
-else
-{
-$("#back-to-top").fadeOut(500);
-}
-});
-$("#back-to-top").click(function(){
-$('body,html').animate({scrollTop:0},100);
-return false;
-});
-});
-});
-<style type="text/css">
-    
 <p id="back-to-top" style="display: block;"><a href="#top"><img src="http://7xof48.com1.z0.glb.clouddn.com/songroger/top.png"></a></p>
 
 {% include footer.html %}

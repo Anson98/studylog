@@ -9,6 +9,29 @@
 @import '_itemshow.css';
 @import '_archive.css';
 
+<script language="javascript" type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#back-to-top").hide();
+$(function () {
+$(window).scroll(function(){
+if ($(window).scrollTop()>100){
+$("#back-to-top").fadeIn(500);
+}
+else
+{
+$("#back-to-top").fadeOut(500);
+}
+});
+$("#back-to-top").click(function(){
+$('body,html').animate({scrollTop:0},100);
+return false;
+});
+});
+});
+<style type="text/css">
+</script>
+
 #back-to-top{
 position:fixed;
 bottom:5%;
