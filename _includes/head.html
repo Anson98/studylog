@@ -49,7 +49,7 @@ document.body.scrollTop = value;
 } 
 } 
 window.onscroll = function() { 
-if (getScrollTop() > 0) {obj.style.display = ""; 
+if (getScrollTop() > 1) {obj.style.display = ""; 
                         }else{
                             obj.style.display = "none";
                         }
@@ -59,7 +59,6 @@ var goTop = setInterval(scrollMove, 10);
 function scrollMove() { 
 setScrollTop(getScrollTop() / 1.1); 
 if (getScrollTop() < 1) {clearInterval(goTop); 
-                         obj.style.display = "none";
                         }
 } 
 } 
