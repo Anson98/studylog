@@ -7,10 +7,32 @@
 
 {{ content }}
     
-    <button type="button" id="gotop">返回顶部</button>
+    <button type="button" id="goTopBtn">返回顶部</button>
     
      <script type="text/javascript">
-BackTop=function(btnId){varbtn=document.getElementById(btnId);vard=document.documentElement;window.onscroll=set;btn.onclick=function(){btn.style.display="none";window.onscroll=null;this.timer=setInterval(function(){d.scrollTop-=Math.ceil(d.scrollTop*0.1);if(d.scrollTop==0)clearInterval(btn.timer,window.onscroll=set);},10);};functionset(){btn.style.display=d.scrollTop?'block':"none"}};BackTop('gotop');
+function goTopEx() { 
+var obj = document.getElementById("goTopBtn"); 
+function getScrollTop() { 
+return document.documentElement.scrollTop + document.body.scrollTop; 
+} 
+function setScrollTop(value) { 
+if (document.documentElement.scrollTop) { 
+document.documentElement.scrollTop = value; 
+} else { 
+document.body.scrollTop = value; 
+} 
+} 
+window.onscroll = function() { 
+getScrollTop() > 0 ? obj.style.display = "": obj.style.display = "none"; 
+} 
+obj.onclick = function() { 
+var goTop = setInterval(scrollMove, 10); 
+function scrollMove() { 
+setScrollTop(getScrollTop() / 1.1); 
+if (getScrollTop() < 1) clearInterval(goTop); 
+} 
+} 
+} 
 </script>
     
 {% include footer.html %}
