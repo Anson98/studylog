@@ -48,8 +48,14 @@ document.documentElement.scrollTop = value;
 document.body.scrollTop = value; 
 } 
 } 
+min_height ? min_height = min_height : min_height = 600;
 window.onscroll = function() { 
-getScrollTop() > 0 ? obj.style.display = "": obj.style.display = "none"; 
+    var s = $(window).scrollTop();
+    if( s > min_height){
+            $("#goTopBtn").fadeIn(100);
+        }else{
+            $("#goTopBtn").fadeOut(200);
+        };
 } 
 obj.onclick = function() { 
 var goTop = setInterval(scrollMove, 10); 
