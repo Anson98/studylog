@@ -19,6 +19,8 @@ twitter_username: Anson_98
 github_username: Anson98
 facebook_username: ansonzc98
 instagram_username: zcanson_98
+qq_username: 2072966682
+baidu_username: Anson_98
 # linkedin_username: songroger
 
 exclude: ['node_modules', 'gulpfile.js', 'package.json']
