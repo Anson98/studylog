@@ -4,10 +4,12 @@ layout: default
 
 <article class="article">
   <h1 class="article__title article__title--single">{{ page.title }}</h1>
-  <time class="article__date" datetime="{{ page.date | date: "%Y-%m-%d" }}">{% if page.author %}By {{ page.author}} on {% endif %}创建于{{ page.date | date: " %H:%M %b.%d-%Y" }} &nbsp; 
-      <time class="article__date" datetime="{{ page.editDate | editDate: "%Y-%m-%d" }}">最后修改于 {{ page.editDate | editDate: " %H:%M %b.%d-%Y" }}
-      </time>
-  </time>
+  <div style="display: inline">
+    <time class="article__date" datetime="{{ page.date | date: "%Y-%m-%d" }}">{% if page.author %}By {{ page.author}} on {% endif %}创建于{{ page.date | date: " %H:%M %b.%d-%Y" }} &nbsp; 
+    </time>
+    <time class="article__date" datetime="{{ page.editDate | editDate: "%Y-%m-%d" }}">最后修改于 {{ page.editDate | editDate: " %H:%M %b.%d-%Y" }}
+    </time>
+  </div>
   {% if page.cover %}
     <div class="cover">
       <img src="{{ page.cover }}">
