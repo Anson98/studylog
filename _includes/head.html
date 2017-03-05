@@ -50,11 +50,11 @@ document.body.scrollTop = value;
 } 
 min_height = 600;
 window.onscroll = function() { 
-    var s = $(window).scrollTop();
+    var s = (window).scrollTop();
     if( s > min_height){
-            $("#goTopBtn").fadeIn(100);
+            ("#goTopBtn").fadeIn(100);
         }else{
-            $("#goTopBtn").fadeOut(200);
+            ("#goTopBtn").fadeOut(200);
         };
 } 
 obj.onclick = function() { 
