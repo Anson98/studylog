@@ -5,7 +5,7 @@ url: "http://songroger.github.io/" # the base hostname & protocol for your site
 permalink: /:title/
 avatar: http://i.imgur.com/cM2Lstx.png
 about: http://7xof48.com1.z0.glb.clouddn.com/about.jpg
-favicon: http://7xof48.com1.z0.glb.clouddn.com/favicon.png
+favicon: http://i.imgur.com/jZ4adr0.png
 basecss: 
 # Theme specific configuration
 title: songroger
