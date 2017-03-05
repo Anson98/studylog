@@ -7,7 +7,7 @@ layout: default
   <div style="display: inline">
     <time class="article__date" datetime="{{ page.date | date: "%Y-%m-%d" }}">{% if page.author %}By {{ page.author}} on {% endif %}创建于{{ page.date | date: " %H:%M %b.%d-%Y" }} &nbsp; 
     </time>
-    <time class="article__date" datetime="{{ page.editDate | editDate: "%Y-%m-%d" }}">最后修改于 {{ page.editDate | editDate: " %H:%M %b.%d-%Y" }}
+    <time class="article__date" datetime="{{ page.editDate | date: "%Y-%m-%d" }}">最后修改于 {{ page.editDate | date: " %H:%M %b.%d-%Y" }}
     </time>
   </div>
   {% if page.cover %}
