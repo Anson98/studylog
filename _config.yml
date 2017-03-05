@@ -3,7 +3,7 @@ domain: "http://songroger.win"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://songroger.github.io/" # the base hostname & protocol for your site
 permalink: /:title/
-avatar: http://i.imgur.com/HbVhfAD.png
+avatar: http://i.imgur.com/cM2Lstx.png
 about: http://7xof48.com1.z0.glb.clouddn.com/about.jpg
 favicon: http://7xof48.com1.z0.glb.clouddn.com/favicon.png
 basecss: 
